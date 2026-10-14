@@ -1,0 +1,19 @@
+Origin: Lumo
+Label: Lumo
+Suite: ember
+Codename: ember
+Version: 1
+Date: Wed, 14 Oct 2026 05:44:47 +0000
+Architectures: amd64
+Components: main
+Description: Lumo package archive
+MD5Sum:
+ 1a5ca7f446d546ca38bda16b8313a706            12029 main/binary-amd64/Packages
+ 79166fb126310715206ef4ea33239acf             4659 main/binary-amd64/Packages.gz
+ ecb1949d93d13c3b50066748be5eff58             9164 main/source/Sources
+ 6d75c1926703fb128af80b4ba279b3c7             3140 main/source/Sources.gz
+SHA256:
+ 50ede212bbd7911de11b4424e3954fe53144661c7dfcb58e6aac724adb2b8f8e            12029 main/binary-amd64/Packages
+ 134cc38dc48f0cf70a13e1089766bd5047a1dac517a76b7769fcbdf36e4ce0bf             4659 main/binary-amd64/Packages.gz
+ 97d6db5896ac21acdc6f89b89b24f5c8db83027450e6b0b7b9b595796cf7123c             9164 main/source/Sources
+ 341250641bad887f07e7de1a47692a238a66fb046c5804604267e628402cc1fd             3140 main/source/Sources.gz
