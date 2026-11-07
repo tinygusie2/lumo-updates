@@ -1,0 +1,202 @@
+Format: 3.0 (native)
+Package: base-files
+Binary: base-files
+Architecture: any
+Version: 13.8+deb13u7+lumo1
+Priority: optional
+Section: unknown
+Maintainer: Lumo Developers <developers@lumo.invalid>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13), debhelper (>= 13.10~)
+Package-List:
+ base-files deb admin required arch=any essential=yes
+Directory: pool/main/b/base-files
+Checksums-Sha1:
+ 73aa8c8fe9a376a3fe7aed4627cc65d2c73c3208 682 base-files_13.8+deb13u7+lumo1.dsc
+ 30c1977a8c07da564f2dee9e6f4339e0d05e80d6 84040 base-files_13.8+deb13u7+lumo1.tar.xz
+Checksums-Sha256:
+ bc7a2294b9e029f3262f8710f09b3a3fca5aa95b495dac2fd8d1da19353dedad 682 base-files_13.8+deb13u7+lumo1.dsc
+ 3d86f9ea77b91bd3045a2f35bc0cbf66d352de10662c5bc60f8e230c2f88c5b0 84040 base-files_13.8+deb13u7+lumo1.tar.xz
+Files:
+ ac27c3525fc847e89cc878c85d3f895d 682 base-files_13.8+deb13u7+lumo1.dsc
+ c88b3c255e63b10def36c0c801d092c3 84040 base-files_13.8+deb13u7+lumo1.tar.xz
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
+Format: 3.0 (quilt)
+Package: calamares
+Binary: calamares
+Architecture: linux-any
+Version: 3.3.14-1lumo2
+Priority: optional
+Section: unknown
+Maintainer: Jonathan Carter <jcc@debian.org>
+Homepage: https://github.com/calamares/calamares
+Standards-Version: 4.7.0
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/calamares
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/calamares.git
+Build-Depends: cmake, cryptsetup <!nocheck>, debhelper-compat (= 13), extra-cmake-modules, gettext, libkf6config-dev, libkf6coreaddons-dev, libkf6crash-dev, libkf6i18n-dev, libkf6iconthemes-dev, libkf6kio-dev, libkf6parts-dev, libkf6service-dev, libkf6solid-dev, libkpmcore-dev, libparted-dev, libpolkit-qt6-1-dev, libpwquality-dev, libboost-python-dev, libqt6svg6-dev, libyaml-cpp-dev, os-prober <!nocheck>, pkg-config, pkg-kde-tools, pkexec, python3:any, qml-module-qtquick-layouts, qml-module-qtquick-privatewidgets, qml-module-qtquick-window2, qml-module-qtquick2, qt6-base-dev
+Package-List:
+ calamares deb utils optional arch=linux-any
+Directory: pool/main/c/calamares
+Checksums-Sha1:
+ efa29df052acd7aa7922ebb788263acd0a0a887c 1565 calamares_3.3.14-1lumo2.dsc
+ fbe92e1c6b44c0966d416fe853f57e4cd2c08b7b 4817871 calamares_3.3.14.orig.tar.gz
+ 8d5eff26ecb520f9da6b6e53ab6015c6d5d5668f 16988 calamares_3.3.14-1lumo2.debian.tar.xz
+Checksums-Sha256:
+ fc532c99e3b12f545328aed9f0536923707a215b2495f86398df1c6aee3ae475 1565 calamares_3.3.14-1lumo2.dsc
+ fa158d679bb9384beaf4a2f821be6da63500b13631ad14acec9bb446565dad4a 4817871 calamares_3.3.14.orig.tar.gz
+ ff0f9022245b51d432bd455cd8d677f953643cc7545e1bd278b75fcd351daf7c 16988 calamares_3.3.14-1lumo2.debian.tar.xz
+Files:
+ 744a19a54ababc8b16148f73e3cb2cd6 1565 calamares_3.3.14-1lumo2.dsc
+ f6ff212c975bb8dd30a280f5d0096880 4817871 calamares_3.3.14.orig.tar.gz
+ 65b77b3713ec011505eba062d8fd5cf8 16988 calamares_3.3.14-1lumo2.debian.tar.xz
+
+Format: 3.0 (native)
+Package: lumo-apps
+Binary: lumo-apps
+Architecture: amd64
+Version: 1.1.86
+Priority: optional
+Section: unknown
+Maintainer: Lumo Developers <developers@lumo.invalid>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cmake, extra-cmake-modules, gettext, libcrypt-dev, libappstreamqt-dev, libflatpak-dev, libkf6bluezqt-dev, libkf6archive-dev, libkf6config-dev, libkf6coreaddons-dev, libkf6dbusaddons-dev, libkf6i18n-dev, libkf6kio-dev, libkf6notifications-dev, libkf6service-dev, libkf6windowsystem-dev, libkscreen-dev, libplasma-dev, libpackagekitqt6-dev, libvterm-dev, pkgconf, qt6-base-dev, qt6-declarative-dev, qt6-svg-dev
+Package-List:
+ lumo-apps deb kde optional arch=amd64
+Directory: pool/main/k/lumo-apps
+Checksums-Sha1:
+ eedbce0f7af41718468adcc6dd6611a16dd90ad0 950 lumo-apps_1.1.86.dsc
+ 2682ca8c72176778ac20194f0e69a2dbbc9519d9 338936 lumo-apps_1.1.86.tar.xz
+Checksums-Sha256:
+ 8ad1d8947e2f8e643296244700c99edce11decf240df9488560eded58e2032cc 950 lumo-apps_1.1.86.dsc
+ 9ee106a2d6c8a90a9e885b9362a68fef5099880f874f8536326232d65404a0d1 338936 lumo-apps_1.1.86.tar.xz
+Files:
+ b5d8d97d0ed6c2c561f5bc7490c35f50 950 lumo-apps_1.1.86.dsc
+ bf2a8a18f21e89f82df2da5b1caf6af4 338936 lumo-apps_1.1.86.tar.xz
+
+Format: 3.0 (native)
+Package: lumo-archive
+Binary: lumo-archive
+Architecture: all
+Version: 1.8
+Priority: optional
+Section: unknown
+Maintainer: Lumo Developers <developers@lumo.invalid>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Package-List:
+ lumo-archive deb admin optional arch=all
+Directory: pool/main/k/lumo-archive
+Checksums-Sha1:
+ f017d1629f80e5fc2fa7f9a9dc77a0ad9e38e111 538 lumo-archive_1.8.dsc
+ 4d533d7263ff8f884cb7dde6fb4019532099b205 4720 lumo-archive_1.8.tar.xz
+Checksums-Sha256:
+ 9a5cead77f3e1a0959753f6b3d87a03f01c99019efa0791164d47731acd735b4 538 lumo-archive_1.8.dsc
+ 725b15da74427f0703bbc752488abd6a1d143fe33323324df3e884137ffde8e3 4720 lumo-archive_1.8.tar.xz
+Files:
+ 0befcf7216fea723bf675d0d24709e9f 538 lumo-archive_1.8.dsc
+ d00b5d66624ef0daff6f6591e94a8d41 4720 lumo-archive_1.8.tar.xz
+
+Format: 3.0 (native)
+Package: lumo-base
+Binary: lumo-base
+Architecture: all
+Version: 1.6.6
+Priority: optional
+Section: unknown
+Maintainer: Lumo Developers <developers@lumo.invalid>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13)
+Package-List:
+ lumo-base deb admin optional arch=all
+Directory: pool/main/k/lumo-base
+Checksums-Sha1:
+ 00a8ba912b2b8d3aacd1a10e2e6c55dbb3193741 528 lumo-base_1.6.6.dsc
+ b3672e45893d0746b5c32c372cb31f9591963cbe 3496 lumo-base_1.6.6.tar.xz
+Checksums-Sha256:
+ d62143641c78593d5b881eb432af36949f60514cdf3343010095533ced78463d 528 lumo-base_1.6.6.dsc
+ 5ff520c3a02a5f21d819969a195e4ce80fdd80d41968d5ad3dd213526cffec86 3496 lumo-base_1.6.6.tar.xz
+Files:
+ 0b1b53066138faedaa4473f8627be087 528 lumo-base_1.6.6.dsc
+ 0479e8de4695bc32bc19215e1063b656 3496 lumo-base_1.6.6.tar.xz
+
+Format: 3.0 (native)
+Package: lumo-desktop
+Binary: lumo-desktop, lumo-calamares
+Architecture: all
+Version: 1.4.74
+Priority: optional
+Section: unknown
+Maintainer: Lumo Developers <developers@lumo.invalid>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), fonts-roboto-unhinted, gcc, grub-common, librsvg2-bin, openssl, python3
+Package-List:
+ lumo-calamares deb x11 optional arch=all
+ lumo-desktop deb x11 optional arch=all
+Directory: pool/main/k/lumo-desktop
+Checksums-Sha1:
+ 65e9e4623b9da0fc6cd0c78d5a724b6e22d73235 688 lumo-desktop_1.4.74.dsc
+ cbd8d0b47b4d33870f095705bcf784bf97884d06 2280528 lumo-desktop_1.4.74.tar.xz
+Checksums-Sha256:
+ 77b79d6270a63d386c6d946e652c462eed89ca628c1612a73faa2d5a47e5bd46 688 lumo-desktop_1.4.74.dsc
+ 627643483276bfdbffebc485063fb7e2ef990b7a406d8d9a42813ea7a266608d 2280528 lumo-desktop_1.4.74.tar.xz
+Files:
+ 54d54d8dc8e39319b0742790c9ea924a 688 lumo-desktop_1.4.74.dsc
+ 3960b24a85ef1f68e5fd9ed57549e9da 2280528 lumo-desktop_1.4.74.tar.xz
+
+Format: 3.0 (native)
+Package: lumo-quickshare
+Binary: lumo-quickshare
+Architecture: amd64
+Version: 1.0.3
+Priority: optional
+Section: unknown
+Maintainer: Lumo Developers <developers@lumo.invalid>
+Standards-Version: 4.7.4
+Build-Depends: debhelper-compat (= 13), cargo, libdbus-1-dev, pkgconf, protobuf-compiler, rustc
+Package-List:
+ lumo-quickshare deb net optional arch=amd64
+Directory: pool/main/k/lumo-quickshare
+Checksums-Sha1:
+ d087df57bddb5c36c78daec9904ffec06b49093a 632 lumo-quickshare_1.0.3.dsc
+ f3e6acde979cc121df0f3e02cb3a34650e651c6a 8840056 lumo-quickshare_1.0.3.tar.xz
+Checksums-Sha256:
+ 0b858823fbf16486ef903e3522eda28ba0852482e254d894044861ff981ee5c2 632 lumo-quickshare_1.0.3.dsc
+ fd16a77692a6f8b68f14f9c66f8143a23e56594634435b07759a6187c83977ec 8840056 lumo-quickshare_1.0.3.tar.xz
+Files:
+ 9213e68dee505b2a403f9225a71bce7a 632 lumo-quickshare_1.0.3.dsc
+ 5b6fac695cb006532f48fb2b2f85f4d8 8840056 lumo-quickshare_1.0.3.tar.xz
+
+Format: 3.0 (quilt)
+Package: polkit-kde-agent-1
+Binary: polkit-kde-agent-1
+Architecture: any
+Version: 4:6.3.6-1lumo1
+Priority: optional
+Section: unknown
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>, Patrick Franz <deltaone@debian.org>, Scarlett Moore <sgmoore@kde.org>,
+Homepage: https://invent.kde.org/plasma/polkit-kde-agent-1
+Standards-Version: 4.7.2
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/polkit-kde-agent-1
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/polkit-kde-agent-1.git
+Build-Depends: debhelper-compat (= 13), dh-sequence-kf6, cmake (>= 3.16~), extra-cmake-modules (>= 6.10.0~), gettext, libkf6coreaddons-dev (>= 6.10.0~), libkf6crash-dev (>= 6.10.0~), libkf6dbusaddons-dev (>= 6.10.0~), libkf6i18n-dev (>= 6.10.0~), libkf6notifications-dev (>= 6.10.0~), libkf6windowsystem-dev (>= 6.10.0~), libpolkit-qt6-1-dev (>= 0.200.0~), libxkbcommon-dev, qt6-base-dev (>= 6.7.0~), qt6-declarative-dev (>= 6.7.0~)
+Package-List:
+ polkit-kde-agent-1 deb kde optional arch=any
+Directory: pool/main/p/polkit-kde-agent-1
+Checksums-Sha1:
+ 88f681f117c5054bcff7dab2b0e0dc3a7b5651a0 1919 polkit-kde-agent-1_6.3.6-1lumo1.dsc
+ c1cab06794d4f4938dbd27210bb48b21a2c0ed9e 57696 polkit-kde-agent-1_6.3.6.orig.tar.xz
+ 3f8f219dc5b6286f30ca3e1eb078d5054f281497 488 polkit-kde-agent-1_6.3.6.orig.tar.xz.asc
+ 080b332f96943f05c77c1877ee2a9bd2407f883e 21800 polkit-kde-agent-1_6.3.6-1lumo1.debian.tar.xz
+Checksums-Sha256:
+ 3f4345c869349ce0910013f27140726d4b1b930ead7544b5ef9e399cf889f9b8 1919 polkit-kde-agent-1_6.3.6-1lumo1.dsc
+ d48dcca9df143da737a970c53641a3542e2d26528c6410ebbbcfef87e49d2678 57696 polkit-kde-agent-1_6.3.6.orig.tar.xz
+ 9f6d759ade6f8f99fad96a45059275ed6f3ea8351e90d35dadfbab8beb27333d 488 polkit-kde-agent-1_6.3.6.orig.tar.xz.asc
+ 76448ffe36cea1bf289107d002702939abaef88df90db5846ad5f26ffe6081f4 21800 polkit-kde-agent-1_6.3.6-1lumo1.debian.tar.xz
+Files:
+ 4c2c22c109e81ee385c434b498f6f91f 1919 polkit-kde-agent-1_6.3.6-1lumo1.dsc
+ 33c9739b82878a9fcd56b2ea73e869a8 57696 polkit-kde-agent-1_6.3.6.orig.tar.xz
+ 8c3589eab2cb30ed0e3a20879dd29233 488 polkit-kde-agent-1_6.3.6.orig.tar.xz.asc
+ 2a17089246747f680237f193b599942f 21800 polkit-kde-agent-1_6.3.6-1lumo1.debian.tar.xz
+
